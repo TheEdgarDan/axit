@@ -1,0 +1,16 @@
+.button {
+    &_header {
+        margin-top: 44px;
+        width: 135px;
+        height: 42px;
+        border: 2px solid #ffffff;
+        background-color: transparent;
+        font-size: 15px;
+        font-weight: 600;
+        color: #ffffff;
+        transition: 0.2s all;
+        &:hover {
+            background-color: rgba(255, 139, 56, 0.75);
+        }
+    }
+}
